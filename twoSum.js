@@ -8,11 +8,9 @@ numbers such that they add up to a specific target.
 
 You may assume that each input would have exactly one solution, and 
 you may not use the same element twice.
-
-Do not use brute force which may cost O(n^2).
 */
 
-function solution(nums, target) { // O(n)
+function solution(nums, target) { 
 	let map = new Array();
 
 	for (let i = 0; i < nums.length; i++) {

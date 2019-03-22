@@ -11,7 +11,7 @@ Output: "bab"
 Note: "aba" is also a valid answer.
 */
 
-// O(n), runtime 124ms (66.47%), 37.4MB used (51.73%) 
+// runtime 124ms (66.47%), 37.4MB used (51.73%) 
 const longestPalindrome = function (s) {
     if (s.length < 2) {
         return s;

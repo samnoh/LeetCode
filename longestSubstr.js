@@ -6,7 +6,7 @@
 Given a string, find the length of the longest substring without repeating characters.
 */
 
-// O(n), runtime 88ms (96.06%) and 37.5MB (89.07%) used
+// runtime 88ms (96.06%) and 37.5MB (89.07%) used
 const lengthOfLongestSubstring = function (s) {
     const hash = new Array(128).fill(0); // ASCII table
     let max = 0, start = 0;

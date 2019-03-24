@@ -32,6 +32,7 @@ const romans =
 const intToRomanUtil = function (num) {
     let result = '';
     const num_loop = num < 1000 ? String(num).length * 2 - 1 : romans.length - 1;
+    
     for (let i = num_loop; i >= num_loop - 1; i--) {
         result += romans[i].symbol.repeat(Math.floor(num / romans[i].num));
         num = num % romans[i].num;
